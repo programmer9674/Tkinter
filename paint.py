@@ -59,7 +59,7 @@ change_pen_color_btn = Button(
     root, text="Change Pen Color", command=change_pen_color)
 change_pen_color_btn.grid(row=1, column=3)
 
-clear_btn = Button(root, text="🧹", command clear)
+clear_btn = Button(root, text="🧹", command=clear)
 clear_btn.grid(row=1, column=4)
 
 root.bind("<B1-Motion>", draw)
