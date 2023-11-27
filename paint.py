@@ -6,8 +6,9 @@ def draw(event):
     x, y = event.x, event.y
     xn, yn = x + pen_size, y + pen_size
     canvas.create_oval((x, y, xn, yn), fill=pen_color, outline=pen_color)
-
     # canvas.create_line((x, y, xn, yn))
+
+
 pen_size = 5
 
 
